@@ -1,0 +1,3009 @@
+# Copyright (C) 2025 Droip
+# This file is distributed under the same license as the Droip plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Droip 2.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-06T06:20:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: droip\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: droip.php
+msgid "Droip"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: droip.php
+msgid "https://droip.com"
+msgstr ""
+
+#. Description of the plugin
+#: droip.php
+msgid "Droip is an all-in-one no-code builder that empowers users to build professional-grade WordPress sites without writing any code. It’s a promising glimpse into the future of website development."
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:112
+#: assets/js/droip-editor.min.js:140
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:113
+#: assets/js/droip-admin.min.js:128
+msgid "Form data"
+msgstr ""
+
+#: includes/API/Media.php:75
+msgid "media type name to get specific media."
+msgstr ""
+
+#: includes/API/Media.php:95
+msgid "Unique post id for the object."
+msgstr ""
+
+#: includes/API/Media.php:334
+msgid "Media can not move to trash or restore."
+msgstr ""
+
+#: includes/API/Media.php:431
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/API/Media.php:437
+msgid "Name of the media item."
+msgstr ""
+
+#: includes/API/Media.php:445
+msgid "Alt of the media item."
+msgstr ""
+
+#: includes/API/Media.php:453
+msgid "Media mime type."
+msgstr ""
+
+#: includes/API/Media.php:461
+msgid "Media category."
+msgstr ""
+
+#: includes/API/Media.php:469
+msgid "Media url."
+msgstr ""
+
+#: includes/API/Media.php:477
+msgid "Media trash or not."
+msgstr ""
+
+#: includes/API/Media.php:485
+msgid "Total media items."
+msgstr ""
+
+#: includes/API/Media.php:491
+msgid "The date the object was published, in the site's timestamp."
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:150
+#, php-format
+msgid "%s field is required"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:201
+#, php-format
+msgid "Invalid type! %s should be a valid %s"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:204
+#, php-format
+msgid "%s should be less than %s charecters"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:207
+#, php-format
+msgid "%s should be more than %s charecters"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:210
+msgid "Unsupported file type!"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:213
+#, php-format
+msgid "File size should be less than %s MB"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:216
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:219
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:222
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:225
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:228
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: includes/FormValidator/FormValidator.php:231
+msgid "File upload stopped by extension"
+msgstr ""
+
+#: includes/Frontend.php:44
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/Frontend/Editor.php:41
+#: includes/Frontend/Iframe.php:71
+msgid "Sorry you are not allowed to access this page"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:1
+#: assets/js/droip-editor.min.js:1
+#: assets/js/droip-editor.min.js:138
+msgid "Back"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:1
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:1
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Done"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:1
+#: assets/js/droip-editor.min.js:1
+msgid "Next"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:140
+msgid "Link Settings"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Save"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+#: assets/js/droip.min.js:1
+msgid "error"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:140
+msgid "Variables"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:84
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:140
+msgid "Search"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+msgid "Type something to add a comment"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Styles added here will be applied globally."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Styles added here will apply at 991px and below."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Styles added here will apply at 767px and below."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Styles added here will apply at 575px and below."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Saving data is not allowed in editor preview mode."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Controller data saved failed."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "User common data saved failed."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Get app list error."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Settings not found!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+#: assets/js/droip.min.js:1
+msgid "success"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Settings saved!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Failed to save settings."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "App install failed."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "App deletion failed."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "App update failed."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Invalid access"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Unauthorized!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Content manager data saved"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Content manager item data saved"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Updated"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Comment added"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:78
+#: assets/js/droip-editor.min.js:78
+#: assets/js/droip.min.js:1
+msgid "Comment resolved"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Search fonts..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Upload from Computer"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Process to upload custom fonts"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Download or locate the file for your custom font. There are many sources online for downloading fonts. It must be downloaded as .TTF or .OTF file. You can also download the font directly through "
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Font Squirrel"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Go to the "
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Font Squirrel Webfont Generator"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Click the Upload Fonts button to select your .TTF or .OTF file"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Select the output of the files (we recommend using the Basic or Optimal settings unless you are comfortable with the Expert Settings)."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Tick the agreement section"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Click Download Your kit."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Once it's finished downloading, you will be left with a webfontkit zip file. Upload this font zip file."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:84
+#: assets/js/droip-editor.min.js:84
+msgid "Add New Condition"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:140
+msgid "Title"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:140
+msgid "Slug"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Description"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Enter a nice description of the page..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Status"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Draft"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Publish"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Meta description goes here"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Replace"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:104
+msgid "Remove"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Cover Image"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Open Graph Title"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This title will be displayed on social media websites."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Enter title tag here..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Same as Title"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Open Graph Meta Description"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This meta description will appear on the social media pages. "
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Enter meta description here..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Same as Meta Description"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This title will be displayed on the search engine result page."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "Meta Description"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This meta description will appear on the search result page below the title/URL."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This code will be added right before the </head> tag."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:104
+#: assets/js/droip-editor.min.js:104
+msgid "This code will be added right before the </body> tag."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:124
+#: assets/js/droip-editor.min.js:124
+msgid "Get License"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:124
+#: assets/js/droip-editor.min.js:124
+msgid "Start 90 Days Trial"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:124
+#: assets/js/droip-editor.min.js:124
+msgid "Already have license?"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:124
+#: assets/js/droip-editor.min.js:124
+msgid "Add License Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Activate"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Select"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Create a New Page"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Open Editor"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Role manager"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "No Access"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Have no access to use droip"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Full Access"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Full access to use droip"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Content Only"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Can update any content"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "View Only"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Only can view pages"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Access updated"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Update failed"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Role"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Access"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "General"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Smooth Scroll"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enhancing User Experience with Smooth Scrolling: From Instant (1%) to Smoothest (100%)"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "1 to 100"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Image Optimization"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Convert uploaded JPG, PNG, and BMP images to WebP for faster load times and better performance."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "SVG Upload"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Allow or block SVG file uploads. Useful for scalable graphics but can pose security risks."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "JSON Files"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enable or disable JSON file uploads for data exchange and configuration. Monitor for potential vulnerabilities."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure Mailchimp"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Please get your Mailchimp"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "API key here"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "XXXX- XXXX-XXXX-XXXX"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Mailchimp DC/Server Prefix"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connecting Mailchimp..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connect Mailchimp"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "API key validated successfully"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure Pexels"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Please get your Pexels"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Pexels API Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connecting Pexels..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connect Pexels"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Invalid API Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure reCAPTCHA"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Please get your reCAPTCHA"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Version"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Site key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enter site key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Secret key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enter secret key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure Unsplash"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Please get your Unsplash"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Unsplash API Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connecting Unsplash..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connect Unsplash"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Invalid API key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure OpenAI"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Please get your OpenAI"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "API key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "OpenAI API Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connecting OpenAI..."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Connect OpenAI"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Edit connection"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Disconnect"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Configure"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Integrations"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Artificial Intelligence (AI)"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enable AI by adding API details for the model of your choice. Droip currently supports Phase-1 AI for text generation."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Unsplash"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "The Unsplash API is a modern JSON API that surfaces all of the info you'll need to build any experience for your users. It's so simple to use that we even run unsplash.com on it!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Pexels"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Pexels is a free stock photo and video platform offering high-quality, royalty-free content from talented creators worldwide. It's a popular resource for creatives seeking professional-grade visuals for personal or commercial use without attribution requirements."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "ReCAPTCHA"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "reCAPTCHA is a Google service designed to protect websites from bots and automated abuse. It verifies users as humans through challenges or behavioral analysis, enhancing security while minimizing disruptions to legitimate users."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Licensed to"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Licensed Type"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Expiration Date"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "License Key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "License key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Activate license"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "subscriptions page"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "License"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Activated"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Inactive"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Get the license key"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Share View-Only Link"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enable to generate a view-only preview link for the editor. Disable for live production sites."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Preview url"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Regenerated"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "URL copied"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:138
+msgid "Copy"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:140
+msgid "Export"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Download"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Export Data"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Export your preferred data for later import. Ideal for local development and production deployment."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Import Data"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Import existing data to quickly restore or migrate content. Currently, only data exported from Droip is supported."
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:140
+msgid "Import"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Advanced"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "License activated!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "License activation failed/deactivated!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Role Manager"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Expand form"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete this row"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Edit"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Delete"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Add new filter"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Clear"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "New"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Oldest"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "All fields"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Sort by"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Select the order"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Add a sort"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Select field"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Choose condition"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Enter a value"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Row deleted!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Row delete failed!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Row data updated failed!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Row data updated!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Sorry! Update failed"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:138
+msgid "Update"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Export as .CSV"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete this entry"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete selected item(s)?"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Are you sure you want to delete the item(s)? It will be removed from your collection"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "No data found"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Selected rows deleted!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete failed!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Cell data updated!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Cell data update failed!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "entries"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "selected"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:140
+msgid "Filter"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Sort"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Edit Columns"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete this item?"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Are you sure you want to delete this item? It will be removed from your collection"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Name"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Entries"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Created"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Modified"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete selected item?"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Are you sure you want to delete the item? It will be removed permanently from your collection"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Form deleted!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Form delete failed!"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Open form data"
+msgstr ""
+
+#: assets/js/droip-admin.min.js:128
+msgid "Delete this form"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Required"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter required message here..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Success"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Success Message"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter success message"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Error"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Error Message"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter error message"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Types"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Ok"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Set as Default"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Duplicate"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Rename"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Option Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Contents"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Something"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Value"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Add"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Method"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Redirect URL"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter the URL..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Action"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter submission location..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Set as Active"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Animation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Easing"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Duration"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Indicator Position"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Indicators"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Arrows"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Indicators position"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Hide at Each End"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Slides Infinite Loop"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Swipe Gestures"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Autoplay on Loading"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Stop Autoplay on Hover"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Set as Home Page"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Move to Dropdown"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Move out of Dropdown"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add New Menu Item"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Search location..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "No results found"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Zoom Buttons"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Street Button"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Fullscreen Button"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Draggable"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Show Marker"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Conditions"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Replace Lottie Sequence"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Playback"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Auto"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Click"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Hover"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Pop-up Name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "pop-up name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Triggers"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "\"X\" Icon"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Close Buttons"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Close by Clicking Outside"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Custom Layouts"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Show"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Offsets"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Upload"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Home"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "My Files"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trash"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Image Library"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Icon Library"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Clip-Path & Shapes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Load More"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "No media found"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Change Image"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Adjust"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Backface"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "3D transformation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Style"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Curve"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Delay"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Bezier"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Bounce"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Visiblity"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Position"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "It is not possible to adjust the height and width of inline elements while ignoring the padding and margin settings."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "This is the main difference in “display: none vs visibility: hidden” The visibility property keeps the element but makes it invisible."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "More Size Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Advanced Size Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Advanced Typography"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate when the user clicks or taps on the element."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate the element when the cursor hovers over the element. No touch support."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate the element continuously while the cursor moves over the element within the X or Y axis. It doesn't support touch functionality."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Continuous Interaction"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect when the website visitor is scrolling on the element."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate when the element becomes visible on the screen as the user scrolls the page."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate when the tab element inview or out of view."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Animate when the dropdown element inview or out of view."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect when the user’s cursor moves over the element along with the X or Y axis. It doesn't have touch support."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect when the website visitor is scrolling the page."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect right after the page first loads."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect when the element becomes visible on the screen as the user scrolls the page. "
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Trigger the effect right after a user scrolls the page up or down."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Custom Breakpoints"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Custom breakpoint list is empty!"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Set New"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Text Animation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Library"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Custom Timing Editor"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Container"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Direction"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Edit Transition"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply to all elements with selected class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply to only trigger element's childrens with selected class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply to selected target's siblings with selected class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply to triggered siblings with selected class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply to only trigger element with selected class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Preview"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Undo"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Redo"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Close popup"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Select an element from canvas to add animation property"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Type"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Apply To"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Replace Video"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Play and Pause"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter the video url"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter image src"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Meta name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Word count"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Format"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Variable Mode"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Write Prompt"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Text copied"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Generated Text"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "AI Content"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Slider Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Nav Items"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Nav Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Slide Navigation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Slide Transitions"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Radius"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Link"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Video Link"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Image Link"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Adjustment"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Group Adjustment"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Paste SVG"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "More Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Dynamic"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter grid area name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Mark as unread"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Delete thread"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add New Layout"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add Class"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Rename Class"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Select Parent Element"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "You can not delete symbol parent."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Paste"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Paste Inside"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Paste Inside First"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Cut"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Copy Element Style"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Detach"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "You can not drop inside body."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Structure"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Sizing"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Typography"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Backgrounds"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Borders"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Effects"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Interactions"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Visibility Conditions"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Reset"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Symbol reset to parent symbol"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Parent symbol updated"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Buy pro version."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Please select an existing folder or create a new one symbol folder"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "You can not create a symbol using symbol."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Symbol created success."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Please enter a name and a category"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Update Symbol"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Create New Symbol"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Enter folder/group"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Buy Pro"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "CSS Styles"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add CSS"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Neutral"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Active"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Focused"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add Interaction"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Paste Element Style"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Detach from Symbol"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Create Symbol"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Clean up Unused Class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Failed Clean up Unused Class."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Clean up Unused Class"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#, js-format
+msgid "Clean up %d Unused Class"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Are sure you want to clean up unused classes?"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "CSS preview"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Collapse all"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Expand all"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+#: assets/js/droip-editor.min.js:140
+msgid "Classes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Search classes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add From Media"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Drop lightbox thumb here or"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Embed Custom Code"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Add Map Location"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Template Update Required"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "This template doesn’t have a designated area for post content."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Edit Template"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Safely Migrate to Droip"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Safely migrate your current content to Droip. Your content will be 100% safe and you can rollback anytime you want."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Start from Blank"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Converting"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:138
+msgid "Convert"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter Code (HTML, CSS, JS Only)"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter web URL"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add your URL here..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Migrate"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Embed"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add Caption"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Caption"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "The text will expand into multiple lines"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Replace Thumbnail"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Link with same group Lightbox"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter/set a group name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Image"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Video"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Content"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Custom Attributes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add New Attributes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "accept"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "image"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Character Limit"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Color Picker"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Rel. Collection"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add Filter"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Edit Filter"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "UI State"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Ref. Coll..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Flex"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Fail"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter the URL"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Open in new tab"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Lottie Loop Animation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Lottie Animation Reverse"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Grid"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Max IP entries"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Response Limit"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Recipient"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter recipient email..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Reply to"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter reply to email..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter reply to name..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Subject"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter email subject..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Body"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "URL"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter an URL"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter form name"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Select State"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Normal"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Current"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Replace SVG"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Blend Mode"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Loading"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Set Custom Thumbnail"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add New Tab"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Video url"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Poster"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Source"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "File"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Hide Menu"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show Menu"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add Item"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Heading options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Paragraph Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "List Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Input field options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Upload options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Submit button options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Link Block Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Checkbox options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Form Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Pagination Item"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Radio options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Nav Menu Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Navbar Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Pop-up Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Tab Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Tab Content Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Tab Menu Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Select options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Textarea options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Image options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "SVG Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Video options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Lottie options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Map Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Custom Code Editor"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Lightbox Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "reCAPTCHA opitons"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Icon Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Dropdown Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Navigation options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Navigation Items"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Navigation Item"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Custom Properties"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Mobile Hamburger"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show Mobile Menu"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Decoration"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Letter"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Alignment"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter name..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Enter value..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Alt Text"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Placeholder"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Placeholder text..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Submit"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Open on"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "On Hover"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "On Click"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "State"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Drag & drop element here"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Restore"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Media"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Class Prefix (optional)"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "eg. droip"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "File Name (optional)"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "eg. droip-page"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Close"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Import a Page"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Include Media"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Confirm"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Page Deleted"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "This page is already added"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "New Page"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Popup"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Template"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add Template"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Collection"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Post Type"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Taxonomy"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Utility Page"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Pages"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "All"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Templates"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Utility"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "View Options"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Font library"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show onboarding"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Shortcuts"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Back to Admin"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Insert"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Layers"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Dev Mode"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Content Manager"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Apps"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Unset as Header"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Unset as Footer"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Set As.."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Header"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Footer"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Help"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Documentation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Symbol Delete"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Are sure you want to delete this symbol?"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Symbol Deleted!"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Elements"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Sections"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Symbols"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Wireframes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Shapes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Icons"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Layout"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Pop-up Editing"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Symbol Saved."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "No"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Search anything..."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "File uploaded"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "File processing"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Character limit"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Make this is a required field"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Size limitation"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Allow negative numbers"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Content Settings"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Select an option"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Variable copied"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "element ID"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Selecting a function will automatically input the code for this action"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Coming Soon"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Details"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Import & Replace"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Import in Progress"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Template Overview"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Proceed"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Template Import failed"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Continue editing"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Duplicate without savinng"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Discard changes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Save changes"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Session expired!"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Your session has expired. Please refresh the page or log in again if you have been logged out."
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Refresh"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Yes, Exit without saving"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Scale to Default"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Scale Larger"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Scale Smaller"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show Ruler"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show Empty Elements"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Show Element Edge"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "View Guides"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Color Blindness"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Red-Green Color Deficiencies"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Protanopia"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Protanomaly"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Deuteranopia"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Deuteranomaly"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Blue-Yellow Color Deficiencies"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Tritanomaly"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Tritanopia"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Full Color Defiencies"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Achromatomaly"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Achromatopsia"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Visual Impairments"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Cataracts"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Large Text"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Disable Motion"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Big Black Cursor"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Big White Cursor"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Magnifier"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Increase Contrast"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Mouse Pointer Highlighter"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Accessibility"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Add Breakpoint"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Breakpoint Delete"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Are you sure you want to delete this breakpoint?"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Breakpoint Deleted!"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Set custom breakpoints"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "No issue found!"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Audit"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Toolbar audit panel"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Global Search"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Commented element not found"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Mark all as read"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Mark all as resolved"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Search comments"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Unread"
+msgstr ""
+
+#: assets/js/droip-editor.min.js:140
+msgid "Resolved"
+msgstr ""
+
+#: assets/js/droip.min.js:47
+msgid "Failed! Please try again"
+msgstr ""
+
+#: assets/js/droip.min.js:47
+#, js-format
+msgid "File size should be less than %dMB."
+msgstr ""
+
+#: assets/js/droip.min.js:47
+msgid "Attachment Failed!"
+msgstr ""
